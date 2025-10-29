@@ -1,0 +1,16 @@
+{
+  "name": "nbt_replacer",
+  "version": "1.0.0",
+  "main": "nbt_replacer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "deepslate": "^0.24.0",
+    "fast-glob": "^3.3.3"
+  }
+}

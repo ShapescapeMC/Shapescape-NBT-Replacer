@@ -1,0 +1,10 @@
+{
+	"description": "A filter that allows to replace strings inside of NBT files.",
+	"filters": [
+		{
+			"runWith": "nodejs",
+			"script": "./main.js",
+			"name": "shapescape_nbt_replacer"
+		}
+	]
+}
