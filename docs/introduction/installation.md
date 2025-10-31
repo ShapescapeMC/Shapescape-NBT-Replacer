@@ -15,7 +15,7 @@ regolith install shapescape_nbt_replacer
 You can alternatively use this command:
 
 ```
-regolith install github.com/ShapescapeMC/shapescape-nbt-replacer
+regolith install github.com/ShapescapeMC/Shapescape-NBT-Replacer/shapescape-nbt-replacer
 ```
 
 ### 2. Add filter to a profile
