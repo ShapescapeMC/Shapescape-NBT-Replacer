@@ -3,7 +3,7 @@
 	"filters": [
 		{
 			"runWith": "nodejs",
-			"script": "./main.js",
+			"script": "./nbt_replacer.js",
 			"name": "shapescape_nbt_replacer"
 		}
 	]
