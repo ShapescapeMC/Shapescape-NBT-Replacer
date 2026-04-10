@@ -344,7 +344,14 @@ async function processFile(
 			});
 		}
 		if (lower.endsWith(".mcstructure")) {
-			attempts.push({ opts: { bedrockHeader: true }, label: "bedrock" });
+			attempts.push({
+				opts: {
+					bedrockHeader: true,
+					littleEndian: true,
+					compression: "none",
+				},
+				label: "bedrock",
+			});
 			attempts.push({
 				opts: { bedrockHeader: true, compression: "zlib" },
 				label: "bedrock+zlib",
